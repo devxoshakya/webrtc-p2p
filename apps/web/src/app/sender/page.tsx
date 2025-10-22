@@ -69,7 +69,7 @@ const Page = () => {
                 sampleSize: 16, // 16-bit audio
                 echoCancellation: true, // remove echo
                 noiseSuppression: true, // reduce background noise
-                // autoGainControl: true, // normalize volume
+                autoGainControl: true, // normalize volume
             },
         }); // console.log("Obtained local media stream", stream.getVideoTracks());
         // rtc.addTrack(stream.getVideoTracks()[0]);
